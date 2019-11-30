@@ -1,0 +1,10 @@
+﻿Ohjelman uudelleenkirjoittaminen siten, että 2d taulukko on ainoastaan matriisin esitysmuoto.
+itse tietojen käsittely tehdään taulukon sijasta listana. / jokainen taulukon solu sisältää listan multituotteita varten (saman tuotteen eri kokovariaatiot samassa lokerossa.)
+
+Käyttöliittymä omaan luokkaan (siirrä kaikki cw() muuttujiin uudessa versiossa)
+
+Erottele luokat paremmin.
+
+
+
+
