@@ -1,4 +1,6 @@
-﻿PROJEKTIN KUVAUS:
+﻿Ensimmäisenä otan osaa sille joka sai projektin tarkastettavakseen.
+
+PROJEKTIN KUVAUS:
 
 Projektin tarkoituksena oli luoda pienimuotoinen varastonhallinta-automaatti, jonka tarkoituksena olisi helpottaa keräilyä varastosta. https://www.youtube.com/watch?v=zedWwjg8CzE
 
@@ -10,9 +12,6 @@ Mikäli vastine löytyy, kysyy järjestelmä ajetaanko hylly kohdalle. Mikäli v
 Muussa tapauksessa, järjestelmä antaa viestin "tuotetta ei löydy tarvittavaa määrää, haluatko silti ajaa hyllyn kohdalle."
 
 
-
-
-
 NYKYTILA:
 Tällä hetkellä projekti on vaiheessa, jossa on luotu ainoastaan olio-ohjelmointikurssin osaamismatriisin mukaan satunnaisia metodeja, jotka ei välttämättä palvele itse projektia millään tavalla.
 Projektia lähdettiin viemään läpi jääräpäisesti käyttämällä 2 ulotteista taulukkoa, vaikka listan käyttö olisi ollut hyvin perusteltua.
@@ -21,7 +20,7 @@ Projektia lähdettiin viemään läpi jääräpäisesti käyttämällä 2 ulotte
 TODO -listaus:
 
 - Muutetaan ohjelman rakennetta siten, että jokainen hyllypaikka sisältää listan joka sisältää tuotteen.
-	tämä listan käyttö mahdollistaisi useamman tuotteen laittamisen samaan varastopaikkaan (esim sormuksen eri koot löytyvät samasta lokerosta).
+	tämä listan käyttö mahdollistaisi useamman tuotteen laittamisen samaan varastopaikkaan (esim sormuksen eri koot löytyvät samasta lokerosta, samaan sarjaan kuuluvat tuotteet yhdistetään multituotenumeron avulla.).
 
 - Lisätään tarvittavat kentät luokkamääritykseen (viivakoodi, saldo, montako kertaa on käyty kullakin rivillä ja lokerolla....)
 - Luodaan käyttöliittymä joka mahdollistaa:
