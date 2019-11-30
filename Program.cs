@@ -16,7 +16,17 @@ namespace UusiProjektityö
     {
         static void Main(string[] args)
         {
-            //luodaan kaksiulotteinen taulukko tuotteita varten (5,15), TODO käsittele poikkeus kun taulukko on täynnä.
+            
+
+
+
+
+
+
+
+
+
+
             Tuotelista tuotelista = new Tuotelista();
 
 

@@ -57,9 +57,7 @@
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Kehitys.txt" />
-    <Content Include="Arvostelu-osaamismatriisi.txt" />
-    <Content Include="Oppimispäiväkirja.txt" />
+    <Content Include="ohjeet.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

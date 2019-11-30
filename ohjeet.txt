@@ -1,0 +1,38 @@
+﻿PROJEKTIN KUVAUS:
+
+Projektin tarkoituksena oli luoda pienimuotoinen varastonhallinta-automaatti, jonka tarkoituksena olisi helpottaa keräilyä varastosta. https://www.youtube.com/watch?v=zedWwjg8CzE
+
+Automaatissa on 5 hyllypaikkaa rinnakkain per hyllyrivi ja hyllyrivejä on 15kpl.
+Laitteen käynnistyessä haetaan tallennetusta tiedostosta järjestelmässä olevien tuotteiden tuotenumerot, viivakoodit varastopaikat sekä saldot.
+
+Käyttäjä syöttää järjestelmälle tuotteen tuotenumeron tai viivakoodin sekä halutun lukumäärän, jonka jälkeen järjestelmä tarkastaa, löytyykö kyseistä tuotetta sen varastopaikoista.
+Mikäli vastine löytyy, kysyy järjestelmä ajetaanko hylly kohdalle. Mikäli vastaus on kyllä, päättelee järjestelmä lyhimmän reitin saada hylly keräilytason kohdalle.
+Muussa tapauksessa, järjestelmä antaa viestin "tuotetta ei löydy tarvittavaa määrää, haluatko silti ajaa hyllyn kohdalle."
+
+
+
+
+
+NYKYTILA:
+Tällä hetkellä projekti on vaiheessa, jossa on luotu ainoastaan olio-ohjelmointikurssin osaamismatriisin mukaan satunnaisia metodeja, jotka ei välttämättä palvele itse projektia millään tavalla.
+Projektia lähdettiin viemään läpi jääräpäisesti käyttämällä 2 ulotteista taulukkoa, vaikka listan käyttö olisi ollut hyvin perusteltua.
+
+
+TODO -listaus:
+
+- Muutetaan ohjelman rakennetta siten, että jokainen hyllypaikka sisältää listan joka sisältää tuotteen.
+	tämä listan käyttö mahdollistaisi useamman tuotteen laittamisen samaan varastopaikkaan (esim sormuksen eri koot löytyvät samasta lokerosta).
+
+- Lisätään tarvittavat kentät luokkamääritykseen (viivakoodi, saldo, montako kertaa on käyty kullakin rivillä ja lokerolla....)
+- Luodaan käyttöliittymä joka mahdollistaa:
+	- tuotteiden luomisen
+	- tuotteiden perustietojen muutoksen
+	- tuotteiden hyllyttämisen
+	- tuotteiden keräilyn (löytyykö tuote järjestelmästä, onko kyseisellä tuotteella tarpeeksi saldoa keräilyä varten.)
+	- Simuloidaan hyllyrivien siirtyminen keräilytasolle.
+	- Optimointiehdotuksen, jossa järjestelmä tarkastaa montako kertaa kullakin hyllyrivillä on käyty ja olisiko tuotteita järkevää siirtää toiseen paikkaan automaatissa moottoriajan minimoimiseksi.
+	   
+Lisätään tarvittavat kentät tuotteelle (viivakoodi, saldo, nimi, kuvapolku)
+Lisätään tarvittavat kentät ja metodit hyllypaikoille (Käyty hyllypaikassa, käyty rivillä)
+
+
