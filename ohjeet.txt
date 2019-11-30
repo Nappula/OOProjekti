@@ -15,7 +15,7 @@ Muussa tapauksessa, järjestelmä antaa viestin "tuotetta ei löydy tarvittavaa 
 NYKYTILA:
 Tällä hetkellä projekti on vaiheessa, jossa on luotu ainoastaan olio-ohjelmointikurssin osaamismatriisin mukaan satunnaisia metodeja, jotka ei välttämättä palvele itse projektia millään tavalla.
 Projektia lähdettiin viemään läpi jääräpäisesti käyttämällä 2 ulotteista taulukkoa, vaikka listan käyttö olisi ollut hyvin perusteltua.
-
+Projektissa ei ole tällä hetkellä mitään poikkeuskäsittelyjä, joten jos kaipailet raportoitavaa niin tässä voisi olla aihe, muuten projekti ei taida antaa paljoakaan testattavaa.
 
 TODO -listaus:
 
